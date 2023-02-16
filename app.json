@@ -1,13 +1,18 @@
 {
-  "pages": [
-    "index/index"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+    "pages": [
+        "index/index",
+        "eventBus/eventBus"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "usingComponents": {
+        "van-nav-bar": "@vant/weapp/nav-bar/index"
+    },
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
 }

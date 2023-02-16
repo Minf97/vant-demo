@@ -1,0 +1,6 @@
+
+
+
+<view style="width: 100rpx; height: 100rpx; background-color: pink;" bindtap="tapBtn">
+    点击emit一下
+</view>

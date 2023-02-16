@@ -1,4 +1,11 @@
 
 
-
+<van-nav-bar
+  title="标题"
+  left-text="返回"
+  right-text="按钮"
+  left-arrow
+  bind:click-left="onClickLeft"
+  bind:click-right="onClickRight"
+/>
 <view class="intro">欢迎使用代码片段，可在控制台查看代码片段的说明和文档</view>

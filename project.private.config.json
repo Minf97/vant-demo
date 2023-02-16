@@ -3,5 +3,18 @@
     "projectname": "%E7%BB%84%E4%BB%B6%E5%BA%93demo",
     "setting": {
         "compileHotReLoad": true
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "事件总线",
+                    "pathName": "eventBus/eventBus",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
     }
 }
